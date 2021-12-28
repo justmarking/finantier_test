@@ -6,9 +6,16 @@
 
 ### (2) API Implementation
 #### A working api was tested and deployed via docker file. Main program *main.py* and *test_main.py* is included in the *app* folder. 
-#### For validation of successful test, 
-> go into the *app* directory 
+
+#### For validation of successful API testing, follow below instructions:
+> go into the */app* directory 
 
 > run **python -m pytest**
 
+#### The API can be ran manually by its image, *myimage*, using the following command:
+> go into working directory of *Dockerfile*
+
+> run **docker run -d --name mycontainer -p 80:80 myimage**
+
+> open localhost in browser
 
