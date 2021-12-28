@@ -12,7 +12,7 @@
 
 > run **python -m pytest**
 
-#### The image of the container has already been created, but if there are issues, run the following commands:
+#### The image of the container, *myimage*, has already been created, but if there are issues, run the following commands:
 > go into working directory of *Dockerfile*
 
 > run **docker build -t myimage .**
