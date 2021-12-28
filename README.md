@@ -12,7 +12,12 @@
 
 > run **python -m pytest**
 
-#### The API can be ran manually by its image, *myimage*, using the following command:
+#### The image of the container has already been created, but if there are issues, run the following commands:
+> go into working directory of *Dockerfile*
+
+> run **docker build -t myimage .**
+
+#### The API can be ran manually by its image, *myimage*, using the following commands:
 > go into working directory of *Dockerfile*
 
 > run **docker run -d --name mycontainer -p 80:80 myimage**
