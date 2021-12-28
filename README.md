@@ -8,6 +8,7 @@
 #### A working api was tested and deployed via docker file. Main program *main.py* and *test_main.py* is included in the *app* folder. 
 #### For validation of successful test, 
 > go into the *app* directory 
+
 > run **python -m pytest**
 
 
