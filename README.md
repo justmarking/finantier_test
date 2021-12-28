@@ -29,4 +29,4 @@
 
 > add */docs* at the end of the URL
 
-#### Screenshots of the working API are included for expected results of validation. 
+#### 3 screenshots (.png) of the working API are included for expected results of validation. 
